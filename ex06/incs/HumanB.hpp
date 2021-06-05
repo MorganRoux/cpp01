@@ -6,7 +6,7 @@
 /*   By: mroux <mroux@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/01 19:10:08 by mroux             #+#    #+#             */
-/*   Updated: 2021/05/01 19:32:09 by mroux            ###   ########.fr       */
+/*   Updated: 2021/06/05 16:49:55 by mroux            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,7 @@ class HumanB
 	public:
 		HumanB(std::string name);
 		void		attack();
-		void		setWeapon(Weapon& weapon) {
-			_weapon = &weapon;
-		};
+		void		setWeapon(Weapon& weapon);
 
 	private:
 		std::string	_name;
