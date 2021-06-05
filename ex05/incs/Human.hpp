@@ -6,7 +6,7 @@
 /*   By: mroux <mroux@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/01 18:21:32 by mroux             #+#    #+#             */
-/*   Updated: 2021/05/01 18:48:24 by mroux            ###   ########.fr       */
+/*   Updated: 2021/06/05 16:41:34 by mroux            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@ class Human
 	public:
 		Human();
 		~Human();
-		std::string	identify();
-		Brain&		getBrain();
+		std::string		identify() const;
+		Brain const&	getBrain() const;
 
 	private:
-		Brain	_brain;
+		const Brain		_brain;
 };
 
 #endif

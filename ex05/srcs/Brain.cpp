@@ -6,7 +6,7 @@
 /*   By: mroux <mroux@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/01 18:30:21 by mroux             #+#    #+#             */
-/*   Updated: 2021/05/01 18:41:10 by mroux            ###   ########.fr       */
+/*   Updated: 2021/06/05 16:42:49 by mroux            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ Brain::~Brain()
 
 }
 
-std::string Brain::identify()
+std::string Brain::identify() const
 {
 	std::ostringstream ss;
 	ss << (void const *)this;

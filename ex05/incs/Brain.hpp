@@ -6,7 +6,7 @@
 /*   By: mroux <mroux@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/01 18:21:51 by mroux             #+#    #+#             */
-/*   Updated: 2021/05/01 18:42:01 by mroux            ###   ########.fr       */
+/*   Updated: 2021/06/05 16:40:55 by mroux            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Brain
 	public:
 		Brain();
 		~Brain();
-		std::string	identify();
+		std::string	identify() const;
 
 	private:
 		int			size;
